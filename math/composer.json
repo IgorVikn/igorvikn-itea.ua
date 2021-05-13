@@ -1,0 +1,14 @@
+{
+    "name": "igorvikn/math",
+    "description": "test math package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IgorVikn",
+            "email": "igorvikn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

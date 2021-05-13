@@ -1,0 +1,15 @@
+{
+    "name": "igorvikn/igorvikn-itea.ua",
+    "description": "my project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IgorVikn",
+            "email": "igorvikn@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
