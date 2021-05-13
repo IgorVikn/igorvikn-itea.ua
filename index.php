@@ -1,16 +1,18 @@
 <?php
 
-	echo "My page" . PHP_EOL;
-	echo "Continue changes on branch Master" . PHP_EOL . "<br>";
+    echo "My page" . PHP_EOL;
+	        
+    use GuzzleHttp\Client;
 
-	use igorvikn\math\Multipl ;
+    include 'vendor/autoload.php';
 
-	include 'vendor/autoload.php';
+    $new_client = new Client();
 
-	$Mymath = new Multipl();
-	echo $Mymath->multiply(5, 5);
+    $itea_body = $new_client->get('https://itea.ua');
 
-//echo phpinfo();
+    echo $itea_body->getBody()->getContents();
+        
+    //echo phpinfo();
 
 
 ?>
